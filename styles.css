@@ -1,0 +1,28 @@
+/* CAROUSEL */
+.carousel-item {
+  height: 70vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.bg-img1 {
+  background-image: linear-gradient(
+    rgba(34, 34, 34, 0.5),
+    rgba(34, 34, 34, 0.5)
+  ), url(images/pic1.webp);
+}
+.bg-img2 {
+  background-image:linear-gradient(
+    rgba(34, 34, 34, 0.5),
+    rgba(34, 34, 34, 0.5)
+  ), url(images/pic2.webp);
+}
+.bg-img3 {
+  background-image:linear-gradient(
+    rgba(34, 34, 34, 0.5),
+    rgba(34, 34, 34, 0.5)
+  ), url(images/pic3.webp);
+}
+.carousel-caption {
+  margin-bottom: 1.5rem;
+}
